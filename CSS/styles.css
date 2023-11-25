@@ -1,7 +1,7 @@
 /*Michael Whiting 999999*/
 html
 {
-    font : normal normal normal 12rem/1.5 Arial, Helvetica, sans-serif; 
+    font : normal normal normal 20px/1.5 Arial, Helvetica, sans-serif; 
 }
 body{
   
@@ -9,7 +9,7 @@ body{
     height : 100vh;
     background-color: hsla(268, 70%, 68%);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
    
 }
 h1{
@@ -44,13 +44,12 @@ section{
 }
 main{
 
-    float : 1 1 70%;
+    float : 2 1 70%;
     background-color :(220, 86%, 60%);
     
 }   
 aside{
-    float : right;
-    width : 25vw;
+    float : 1 1 30%; 
     
 }
 aside a{  
@@ -62,9 +61,8 @@ aside a{
 aside a:hover{
     color:#f02;
 }
-footer{
-    clear : both;
-}.structural{
+
+.structural{
     margin : 1rem;
     padding : 1rem;
     border : 0.1rem solid black;
@@ -101,26 +99,22 @@ a:hover{
 }
 img{
     width : 80%;
-    heigh : 80%;
-    border:dashed;
+    height : 80%;
+  
 }
+
 img{
     width : 80%;
-    heigh : 80%;
-    border:dashed;
-}
-img{
-    width : 80%;
-    heigh : 80%;
+    height : 80%;
 }
 figure
 {
-    border : 0.1 em solid black;
+    border : 0.1em solid black;
 }
 
 #gallery
 {
-    border:dashed;
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1 fr 1fr;
@@ -131,11 +125,12 @@ figure
     html{
         font-size :10px;
     }
-}
+
 #gallery{
     grid-template-columns: 1fr;
     grid-template-columns: 1fr;
 }
 section{
 display: block;
+}
 }
